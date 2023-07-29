@@ -1,0 +1,23 @@
+.items {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:32px;
+    text-align: center;
+    padding: 0;
+    margin: var(--spacing-xl);
+}
+
+.item__image {
+    height:150px;
+}
+
+.item {
+    border: 1px solid #1e1e1e;
+    border-radius: var(--radii-sm);
+    padding: var(--spacing-sm)
+}
+
+h2 {
+    font-size: 1rem;
+}
