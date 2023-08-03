@@ -21,3 +21,8 @@
 h2 {
     font-size: 1rem;
 }
+
+.heart {
+    object-fit:scale-down;
+}
+
