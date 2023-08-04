@@ -4,15 +4,15 @@ import Heart from "react-animated-heart";
 const Beer = (props) => {
     const[isLiked,setIsLiked] = useState(false)
 
-    // acts as a componentDidMount lifecycle
-    useEffect(() => {
+    // // acts as a componentDidMount lifecycle
+    // useEffect(() => {
 
-    }, [])
+    // }, [])
 
-    //acts as a componentDidUpdate
-    useEffect(() => {
+    // //acts as a componentDidUpdate
+    // useEffect(() => {
 
-    }, [])
+    // }, [])
 
     return (
     <li className="item" key={props.id}>
